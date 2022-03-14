@@ -4,7 +4,7 @@ numpy
 pandas
 python_dateutil
 requests
-scikit_learn
+scikit_learn==1.0.2
 python-whois
 gunicorn
 Werkzeug
