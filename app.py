@@ -18,7 +18,7 @@ y = data["class"]
 gbc = GradientBoostingClassifier(max_depth=4,learning_rate=0.7)
 
 # fit the model 
-gbc.fit(X,y)
+gbc.fit(X.values,y)
 
 app = Flask(__name__)
 
